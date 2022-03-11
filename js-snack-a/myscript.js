@@ -15,9 +15,9 @@ const player =  {
     code: "",
     name:"Donatella",
     surname:"Campaniello",
-    eta:"25" ,
-    media:"",
-    accurancy: "",
+    age:"25" ,
+    mean:"",
+    accuracy: "",
 }
 
 
@@ -37,6 +37,6 @@ console.log(threeChar);
 
 
 player.code = threeChar + threeNumbers;
-player.media += Math.floor(Math.random() * 50) + " points";
-player.accurancy += Math.floor(Math.random() * 100) + "%";
+player.mean += Math.floor(Math.random() * 50) + " points";
+player.accuracy += Math.floor(Math.random() * 100) + "%";
 console.log(player);
